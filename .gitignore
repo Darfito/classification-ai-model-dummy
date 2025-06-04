@@ -1,0 +1,40 @@
+# 🐍 Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ⚙️ Virtual environment
+venv/
+
+# 🔒 Environment variables
+.env
+.env.*
+
+# 🤖 Model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.tflite
+
+# 📁 Editor / IDE config
+.vscode/
+.idea/
+
+# 🧪 Jupyter artifacts
+.ipynb_checkpoints/
+
+# 📦 Build artifacts
+build/
+dist/
+*.egg-info/
+
+# 🗑️ OS-generated files
+.DS_Store
+Thumbs.db
+
+# 🔧 Logs and temporary files
+*.log
+*.tmp
+*.swp
