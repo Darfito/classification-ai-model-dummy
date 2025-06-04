@@ -115,12 +115,6 @@ Git will ignore the following:
 
 ---
 
-## 📬 Contributions
-
-Feel free to fork this repo and open pull requests for any enhancements or bug fixes.
-
----
-
 ## 📜 License
 
 This project is licensed under the MIT License.
