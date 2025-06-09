@@ -715,14 +715,14 @@ async def classify_xray_with_ai(image: Image.Image) -> Dict[str, Any]:
                     }
             else:
                 logger.info("ℹ️ No detections found, returning Normal")
-                return {
-                    "success": True,
-                    "diagnosis": "Normal",
-                    "confidence": 95.0,
-                    "all_predictions": [{"condition": "Normal", "confidence": 95.0}],
-                    "model_used": "keremberke/yolov8n-chest-xray-classification",
-                    "processing_method": "no_detection_found"
-                }
+                # return {
+                #     "success": True,
+                #     "diagnosis": "Normal",
+                #     "confidence": 95.0,
+                #     "all_predictions": [{"condition": "Normal", "confidence": 95.0}],
+                #     "model_used": "keremberke/yolov8n-chest-xray-classification",
+                #     "processing_method": "no_detection_found"
+                # }
         else:
             logger.error("❌ Unrecognized result format")
             logger.info(f"🔍 Result has probs: {hasattr(result, 'probs')}")
